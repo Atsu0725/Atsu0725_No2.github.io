@@ -55,7 +55,7 @@ header{
 }
 .backImg{
     height: calc(100vh - 80px);
-    background-image:url("/Users/atsuo/Desktop/WEB_Dev/Camp PJ No3/img/mainvisual.jpg");
+    background-image:url("/mainvisual.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
