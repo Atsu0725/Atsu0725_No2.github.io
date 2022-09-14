@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+/*共通value値を設定*/
+:root{
+    --color--back1:#F0F0F0;
+}
+
+/*header*/
+header{
+    height:80px;
+    background-color: var(--color--back1);
+}
+.containerHead{
+    height:80px;
+    width:1000px;
+    margin:0 auto;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}
+.menuList{
+    display:flex;
+    margin-left:56.6px;
+}
+.menuList li{
+    margin-right:40px;
+}
+.menuList a{
+    color: black;
+}
+.icon{
+    width:105.39px;
+    height:25.68px;
+}
+.inquryMaterials{
+    background-color: black;
+    color: white;
+    height:80px;
+    width:200px;
+    line-height: 80px;
+    text-align: center;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+/*main*/
+.main{
+    background-color: var(--color--back1);
+}
+.backImg{
+    height: calc(100vh - 80px);
+    background-image:url("/Users/atsuo/Desktop/WEB_Dev/Camp PJ No3/img/mainvisual.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerNews{
+    padding-top: 120px;
+    width:1000px;
+    margin:0 auto;
+    margin-bottom:128px;
+}
+h1{
+    display: inline-block;
+    margin-bottom:10px;
+    font-size:36px;
+    font-weight: normal;
+    letter-spacing:10.8px;
+}
+.underLine{
+    border-top:solid 1px black;
+    margin-top:36px;
+    margin-bottom:60px;
+    width:40px;
+}
+.newsList{
+    display: flex;
+    justify-content: space-between;
+}
+.borderLeft{
+    border-left: solid 1px black;
+    padding-left:20px;
+}
+.news{
+    display: flex;
+    justify-content: left;
+    margin-bottom:17px;
+}
+.newsList time{
+    font-size: 14px;
+}
+.newsList h2{
+    display: inline-block;
+    font-weight: normal;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    padding:1px 7px;
+    margin-left:17px;
+}
+/*about*/
+.about{
+    display: flex;
+    margin-bottom:120px;
+}
+.about img{
+    display: inline-block;
+    width:760px;
+    height:400px;
+}
+.aboutRight{
+    padding:180px 5% 0 5%;
+}
+
+/*business*/
+.businessContainer{
+    width:1000px;
+    margin:0 auto;
+    margin-bottom: 120px;
+}
+.businessImg{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.businessImg li{
+    margin-right: 64px;
+}
+.businessImg p{
+    font-size: 14px;
+}
+.businessImg img{
+    width:368px;
+    height:232px;
+}
+.buzImg1{
+    margin-top:150px;
+}
+.buzImg{
+    margin-bottom: 50px;
+}
+
+/*company*/
+.companyContainer{
+    width:1000px;
+    height:750px;
+    margin:0 auto;
+    position:relative;
+}
+.company{
+    background-color: white;
+    width:560px;
+    height:640px;
+    padding-top:100px;
+    padding-left:62px;
+}
+.companyContainer img{
+    width:547px;
+    height:400px;
+    position:absolute;
+    top:105px;
+    right:0;
+}
+.containts{
+    background-color: white;
+    display: flex;
+    font-size:14px;
+}
+.containts p{
+    margin-bottom:10px;
+}
+.name{
+    background-color: white;
+    margin-right:29px;
+}
+.company h1{
+    background-color: white;
+}
+.company p{
+    background-color: white;
+}
+.containt{
+    background-color: white;
+}
+
+/*footer*/
+footer{
+    height:209px;
+    background-color: white;
+}
+.footerContainer{
+    width:1000px;
+    margin:0 auto;
+}
+.footerItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+}
+.footerItems p{
+    width:230px;
+    height:105px;
+    font-size:14px;
+}
+.lastText{
+    font-size:12px;
+}

@@ -1,0 +1,92 @@
+
+@media all and (max-width:900px){
+    .inquryMaterials{
+        display: none;
+    }
+    .icon{
+        margin:10px 0px 10px 10px;
+        }
+    .containerHead{
+        display:block;
+        width:100%;
+    }
+    .menuList{
+            margin-left:0;
+            justify-content:space-around;
+    }
+    .menuList li{
+        margin-right:0;
+    }
+    .containerNews{
+        width:100%;
+    }
+    .newsList{
+        display:block;
+        align-items: center;
+    }
+    .borderLeft{
+        border-left: none;
+        padding-left:0;
+    }
+    .newsList li{
+        padding-left:20px;
+        margin-bottom:40px;
+    }
+    .main{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .about{
+        display: block;
+    }
+    .about img{
+        display: inline-block;
+        width:100%;
+        height:400px;
+    }
+    .aboutRight{
+        padding:0;
+        margin-top: 20px;
+    }
+    .businessContainer{
+        width:100%;
+    }
+    .businessImg{
+        display: block;
+    }
+    .businessImg li{
+        margin-right: 0px;
+    }
+    .businessImg img{
+        width:100%;
+    }
+    .buzImg1{
+        margin-top:50px;
+    }
+    .companyContainer{
+        width:100%;
+        height:1100px;
+        position:static;
+    }
+    .company{
+        width:100%;
+        padding-left:10px;
+    }     
+    .companyContainer img{
+        display:inline-block;
+        width:100%;
+        position:static;
+        margin-top:20px;
+    }   
+
+    .footerContainer{
+        width:100%;
+    }
+    .footerItems{
+        display: block;
+    }
+    .footerContainer p{
+        margin-left:10px;
+    }
+
+}
